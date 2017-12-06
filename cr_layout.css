@@ -60,8 +60,22 @@ nav a:hover {
 }
 
 article img {
-  transform: scale(0.2, 0.2);
+  transform: scale(0.7, 0.7);
   clear: right;
   float: right;
-  padding-right: 60px;
+  padding-right: 450px;
+}
+
+h1 {
+  clear: right;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding-top: 20px;
+}
+
+dl {
+  display: block;
+  width: 33%;
+  text-align: center;
 }

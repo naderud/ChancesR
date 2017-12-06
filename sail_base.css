@@ -40,6 +40,8 @@ span, ul {
 
 html{
   background-color: beige;
+  background-image: url(SailNlogo.png) 15%;
+  background-repeat: repeat;
 }
 
 /*header style*/

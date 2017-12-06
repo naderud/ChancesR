@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/*
+   Sail-N Website
+   2nd Web Site
+   Web Design 1
+
+  Layout Style Sheet for the Sail-N Website
+
+   Author: Nadean Rudolph
+   Date:   12-05-17
+   Filename: cr_layout.css
+   */
+
+/**{outline: 1px solid red;}*/
+body{
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  min-width: 640px;
+
+}
+
+/*Header style*/
+
+header {
+  position: relative;
+}
+
+header > img {
+  clear: left;
+  display: block;
+  float: left;
+}
+
+h1{
+  position: absolute;
+  left: 27%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-shadow: white 0px 0px 30px;
+}
+
+nav.horizontal {
+  clear: both;
+  background-color: black;
+}
+
+nav.horizontal li {
+  display: block;
+  width: 25%;
+  float: left;
+  font-family: sans-serif;
+
+}
+
+nav.horizontal a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: purple;
+}
+
+article img {
+  clear: right;
+  float: right;
+  padding-left: 15px;
+}

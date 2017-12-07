@@ -19,8 +19,6 @@ body{
   margin-right: auto;
   max-width: 960px;
   min-width: 640px;
-
-
 }
 
 /*Header style*/
@@ -39,6 +37,7 @@ header > img {
 nav.horizontal {
   clear: both;
   background-color: black;
+  line-height: 2em;
 }
 
 nav.horizontal li {
@@ -66,16 +65,59 @@ article img {
   padding-right: 450px;
 }
 
+article figure {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
 h1 {
-  clear: right;
+  clear: both;
   text-decoration: none;
   text-align: center;
   color: black;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
-dl {
-  display: block;
+h2 {
+  padding-top: 30px;
+}
+
+.col1 {
+  clear: left;
+  display: inline-block;
+  float: left;
   width: 33%;
+  color: black;
   text-align: center;
+}
+
+.col2 {
+  display: inline-block;
+  float: left;
+  width: 33%;
+  color: black;
+  text-align: center;
+}
+
+.col3 {
+  display: inline-block;
+  float: left;
+  width: 33%;
+  color: black;
+  text-align: center;
+}
+
+footer {
+  clear: both;
+  line-height: 1.5em;
+  background-color: black;
+  color: powderblue;
+  text-align: center;
+  padding-top: 5px;
 }

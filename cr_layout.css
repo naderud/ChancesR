@@ -58,7 +58,7 @@ nav a:hover {
   background-color: purple;
 }
 
-article img {
+article>img {
   transform: scale(0.7, 0.7);
   clear: right;
   float: right;
@@ -96,7 +96,10 @@ h2 {
   color: black;
   text-align: center;
 }
-
+.col1 img, .col2 img, .col3 img {
+  width:150px;
+  height:150px;
+}
 .col2 {
   display: inline-block;
   float: left;

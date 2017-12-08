@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-html>
+<html>
   <head>
 
     <!-- Sail-N
@@ -11,25 +11,58 @@ html>
     Date: 11/30/2017 -->
 
     <meta charset="utf-8">
-    <title>Sail-N Seafood Restaurant</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="sail_base.css">
     <link rel="stylesheet" href="cr_layout.css">
   </head>
+
   <body>
     <header>
       <img src="SailboatsH.png" alt="Sailboats">
     <nav class="horizontal">
       <ul>
-        <li><a href="index.html">Home</li>
-        <li><a href="about.html">About Us</li>
-        <li><a href="menu.html">Menu</li>
-        <li><a href="questions.html">Questions</li>
-        <li><a href="contact.html">Contact Us</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="questions.html">Questions</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
   </header>
-    <article>
 
+    <article>
+      <form id="gform" name"gform" target="hidden_iframe" onsubmit="submitted=true;"
+        action="https://docs.google.com/forms/d/e/1FAIpQLScMifn7RyIJWvJ7WNZuLpxQq1ZjMURGvZw-PrCmtDyq27vHOA/formResponse?">
+        <label for="entry.120095060">Name</label><br>
+        <input type="text" name="entry.120095060" id="entry.120095060"><br>
+        <label for="entry.1448452795">Email</label><br>
+        <input type="text" name="entry.1448452795" id="entry.1448452795"><br>
+        <label for="entry.733765772">Comments</label><br>
+        <textarea name="entry.733765772" id="entry.733765772" rows="8" cols="50"></textarea><br>
+
+        <input type="submit" name="" value="submit">
+      </form>
+
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){}"></iframe>
+
+      <script src="https://code.jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZh0sEEamd0YGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+      <script type="text/javascript">
+        var submitted = false;
+      </script>
+
+      <script type="text/javascript">
+      $('#gform').on('submit', function(e){
+      $('#gform *').fadeOut(2000);
+      $('#gform').prepend('Your submission has been processed. Thank you for your input. We will get back to you as soon as possible.');
+      });
+
+      </script>
     </article>
+
+    <footer>
+      ©2017 Sail-N Seafood Restaurant, 3000 E Calhoun Parkway, Minneapolis, MN 55408
+    </footer>
+    
   </body>
 </html>

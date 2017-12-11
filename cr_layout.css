@@ -58,15 +58,12 @@ nav a:hover {
   background-color: purple;
 }
 
-<<<<<<< HEAD
 figure>img{
   padding-left: 190px;
   padding-top: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
-=======
->>>>>>> 574979ab77d10efed9e27ef4b266f85a162883e6
 article>img {
   transform: scale(0.7, 0.7);
   clear: right;
@@ -99,7 +96,7 @@ h3 {
 }
 
 .col1>img, .col2>img, .col3>img {
-  height: 150px;
+  height: 200px;
   width: 200px;
 }
 

@@ -27,7 +27,7 @@ header {
   position: relative;
 }
 
-header > img {
+header>img {
   clear: left;
   display: block;
   float: left;
@@ -58,11 +58,6 @@ nav a:hover {
   background-color: purple;
 }
 
-figure>img{
-  padding-left: 190px;
-  padding-top: 10px;
-  padding-bottom: 40px;
-}
 
 article>img {
   transform: scale(0.7, 0.7);
@@ -88,11 +83,17 @@ h1 {
 }
 
 h2 {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 h3 {
   text-align: center;
+}
+
+figure>img{
+  padding-left: 190px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
 .col1>img, .col2>img, .col3>img {
@@ -127,7 +128,26 @@ h3 {
   color: black;
   text-align: center;
 }
+body img {
+  display: block;
+  clear: left;
+  float: left;
+  /*padding: 20px;*/
+}
 
+body>p {
+  display: block;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+
+
+
+aside.hours {
+  text-align: center;
+  padding-top: 360px;
+}
 
 form {
   padding-left: 150px;

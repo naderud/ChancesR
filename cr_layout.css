@@ -13,6 +13,7 @@
    */
 
 /**{outline: 1px solid red;}*/
+
 body{
   height: 100%;
   margin-left: auto;
@@ -61,9 +62,10 @@ nav a:hover {
 
 article>img {
   transform: scale(0.7, 0.7);
-  clear: right;
-  float: right;
-  padding-right: 450px;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 450px;
 }
 
 article figure {
@@ -83,6 +85,7 @@ h1 {
 }
 
 h2 {
+  text-align: center;
   padding-top: 10px;
 }
 
@@ -90,29 +93,48 @@ h3 {
   text-align: center;
 }
 
+
 figure>img{
   padding-left: 190px;
   padding-top: 10px;
   padding-bottom: 40px;
 }
 
-.col1>img, .col2>img, .col3>img {
-  height: 200px;
-  width: 200px;
+.about {
+  display: block;
+  width: 100%;
 }
+
+.about img {
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+section.about>p {
+  display: block;
+  padding-top: 30px;
+  padding-right: 30px;
+
+
+}
+
+.col1>img, .col2>img, .col3>img {
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+
 
 .col1 {
   clear: left;
-  display: inline-block;
+  display: block;
   float: left;
   width: 33%;
   color: black;
   text-align: center;
 }
-.col1 img, .col2 img, .col3 img {
-  width:150px;
-  height:150px;
-}
+
 .col2 {
   display: inline-block;
   float: left;
@@ -124,7 +146,7 @@ figure>img{
 .col3 {
   display: inline-block;
   float: left;
-  width: 33%;
+  width: 34%;
   color: black;
   text-align: center;
 }
@@ -146,7 +168,11 @@ body>p {
 
 aside.hours {
   text-align: center;
-  padding-top: 360px;
+  padding-top: 200px;
+}
+
+article.questions {
+  text-align: center;
 }
 
 form {
